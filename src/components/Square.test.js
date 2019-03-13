@@ -9,11 +9,12 @@ const square = shallow(<Square />);
 
 describe("when rendering the Square", () => {
   it("should render the square div", () => {
-    expect(square.find(".squareDiv").exists()).toBeTruthy();
+    const square = shallow(<Square value="" />);
+    expect(square.text()).toEqual("");
   });
 
-  it("should have x turn to play true on initial click ", () => {
-    square.find(".squareDiv").simulate("click");
-    expect(square.state().xTurnToPlay).toEqual(true);
+  it("should have value as X when it is X ", () => {
+    const squareX = shallow(<Square value="X" />);
+    expect(squareX.text()).toEqual("X");
   });
 });
