@@ -18,38 +18,33 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": <Board
-        className="boardComponent"
-      />,
+      "children": Array [
+        <h1
+          className="tictactoeHeader"
+        >
+           TicTacToe Game
+        </h1>,
+        <Board
+          className="boardComponent"
+        />,
+      ],
       "className": "App",
     },
     "ref": null,
-    "rendered": Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "class",
-      "props": Object {
-        "className": "boardComponent",
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": " TicTacToe Game",
+          "className": "tictactoeHeader",
+        },
+        "ref": null,
+        "rendered": " TicTacToe Game",
+        "type": "h1",
       },
-      "ref": null,
-      "rendered": null,
-      "type": [Function],
-    },
-    "type": "div",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": <Board
-          className="boardComponent"
-        />,
-        "className": "App",
-      },
-      "ref": null,
-      "rendered": Object {
+      Object {
         "instance": null,
         "key": undefined,
         "nodeType": "class",
@@ -60,6 +55,53 @@ ShallowWrapper {
         "rendered": null,
         "type": [Function],
       },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h1
+            className="tictactoeHeader"
+          >
+             TicTacToe Game
+          </h1>,
+          <Board
+            className="boardComponent"
+          />,
+        ],
+        "className": "App",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": " TicTacToe Game",
+            "className": "tictactoeHeader",
+          },
+          "ref": null,
+          "rendered": " TicTacToe Game",
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "className": "boardComponent",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
       "type": "div",
     },
   ],
