@@ -26,6 +26,21 @@ ShallowWrapper {
         >
           The current player is
         </div>,
+        <div
+          className="row"
+        >
+          First row
+        </div>,
+        <div
+          className="row"
+        >
+          Second row
+        </div>,
+        <div
+          className="row"
+        >
+          Third row
+        </div>,
       ],
       "className": "board",
     },
@@ -53,6 +68,42 @@ ShallowWrapper {
         "rendered": "The current player is",
         "type": "div",
       },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "First row",
+          "className": "row",
+        },
+        "ref": null,
+        "rendered": "First row",
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Second row",
+          "className": "row",
+        },
+        "ref": null,
+        "rendered": "Second row",
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Third row",
+          "className": "row",
+        },
+        "ref": null,
+        "rendered": "Third row",
+        "type": "div",
+      },
     ],
     "type": "div",
   },
@@ -69,6 +120,21 @@ ShallowWrapper {
             className="currentPlayer"
           >
             The current player is
+          </div>,
+          <div
+            className="row"
+          >
+            First row
+          </div>,
+          <div
+            className="row"
+          >
+            Second row
+          </div>,
+          <div
+            className="row"
+          >
+            Third row
           </div>,
         ],
         "className": "board",
@@ -95,6 +161,42 @@ ShallowWrapper {
           },
           "ref": null,
           "rendered": "The current player is",
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "First row",
+            "className": "row",
+          },
+          "ref": null,
+          "rendered": "First row",
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Second row",
+            "className": "row",
+          },
+          "ref": null,
+          "rendered": "Second row",
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Third row",
+            "className": "row",
+          },
+          "ref": null,
+          "rendered": "Third row",
           "type": "div",
         },
       ],

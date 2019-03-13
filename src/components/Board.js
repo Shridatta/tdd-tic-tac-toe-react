@@ -15,6 +15,9 @@ class Board extends Component {
       <div className="board">
         Board <br />
         <div className="currentPlayer">The current player is</div>
+        <div className="row">First row</div>
+        <div className="row">Second row</div>
+        <div className="row">Third row</div>
       </div>
     );
   }
