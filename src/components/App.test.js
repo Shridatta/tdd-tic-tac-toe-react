@@ -1,5 +1,5 @@
 import React from "react";
-import { shallow, configure } from "enzyme";
+import { shallow, configure, mount } from "enzyme";
 import App from "../components/App";
 import Adapter from "enzyme-adapter-react-16";
 
@@ -18,5 +18,15 @@ describe("when rendering the app", () => {
 
   it("contains the TicTacToe Header", () => {
     expect(app.find(".tictactoeHeader").exists()).toBeTruthy();
+  });
+
+  it("renders the Current Player Correctly", () => {
+    const wrapper = mount(<App />);
+    const firstPlayer = wrapper
+      .find(".currentPlayer")
+      .children()
+      .first()
+      .text();
+    expect(firstPlayer).toEqual("The Current player is X");
   });
 });

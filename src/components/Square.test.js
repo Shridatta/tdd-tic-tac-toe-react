@@ -18,11 +18,4 @@ describe("when rendering the Square", () => {
     const squareX = shallow(<Square value="X" />);
     expect(squareX.text()).toEqual("X");
   });
-
-  it("on clicking the Square on click action gets called", () => {
-    const onClickAction = sinon.spy();
-    const square = shallow(<Square value="" onClick={onClickAction} />);
-    square.find("#squareDiv").simulate("click");
-    expect(onClickAction.calledOnce).toEqual(true);
-  });
 });
