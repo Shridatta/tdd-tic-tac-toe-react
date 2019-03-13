@@ -29,4 +29,15 @@ describe("when rendering the app", () => {
       .text();
     expect(firstPlayer).toEqual("The Current player is X");
   });
+
+  it("renders the Current Player as O", () => {
+    const div = wrapper.find("div.square").first();
+    div.simulate("click");
+    const secondPlayer = wrapper
+      .find("div.game-info")
+      .children()
+      .first()
+      .text();
+    expect(secondPlayer).toEqual("The Current player is O");
+  });
 });
