@@ -11,7 +11,12 @@ class Board extends Component {
     console.log(this.state);
   }
   render() {
-    return <div className="board">Board</div>;
+    return (
+      <div className="board">
+        Board <br />
+        <div className="currentPlayer">The current player is</div>
+      </div>
+    );
   }
 }
 
