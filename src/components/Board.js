@@ -12,11 +12,22 @@ class Board extends Component {
     console.log(this.state);
   }
 
+  handleClick(i) {
+    const squares = this.state.squares.slice();
+    console.log(this.state);
+    squares[i] = this.state.xTurnToPlay ? "X" : "O";
+    this.setState({
+      squares: squares,
+      xTurnToPlay: !this.state.xTurnToPlay
+    });
+  }
+
   renderSlot(i) {
     return (
       <Square
         className="squareinit"
         value={this.state.squares[i]}
+        onClick={() => this.handleClick(i)}
         slotNumber={i}
       />
     );

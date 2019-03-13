@@ -31,19 +31,72 @@ ShallowWrapper {
         >
           <Square
             className="squareinit"
+            onClick={[Function]}
+            slotNumber={0}
+            value={null}
+          />
+           
+          <Square
+            className="squareinit"
+            onClick={[Function]}
             slotNumber={1}
+            value={null}
+          />
+           
+          <Square
+            className="squareinit"
+            onClick={[Function]}
+            slotNumber={2}
             value={null}
           />
         </div>,
         <div
           className="row"
         >
-          Row 2
+          <Square
+            className="squareinit"
+            onClick={[Function]}
+            slotNumber={3}
+            value={null}
+          />
+           
+          <Square
+            className="squareinit"
+            onClick={[Function]}
+            slotNumber={4}
+            value={null}
+          />
+           
+          <Square
+            className="squareinit"
+            onClick={[Function]}
+            slotNumber={5}
+            value={null}
+          />
         </div>,
         <div
           className="row"
         >
-          Row 3
+          <Square
+            className="squareinit"
+            onClick={[Function]}
+            slotNumber={6}
+            value={null}
+          />
+           
+          <Square
+            className="squareinit"
+            onClick={[Function]}
+            slotNumber={7}
+            value={null}
+          />
+           
+          <Square
+            className="squareinit"
+            onClick={[Function]}
+            slotNumber={8}
+            value={null}
+          />
         </div>,
       ],
       "className": "board",
@@ -77,27 +130,77 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": <Square
-            className="squareinit"
-            slotNumber={1}
-            value={null}
-          />,
+          "children": Array [
+            <Square
+              className="squareinit"
+              onClick={[Function]}
+              slotNumber={0}
+              value={null}
+            />,
+            " ",
+            <Square
+              className="squareinit"
+              onClick={[Function]}
+              slotNumber={1}
+              value={null}
+            />,
+            " ",
+            <Square
+              className="squareinit"
+              onClick={[Function]}
+              slotNumber={2}
+              value={null}
+            />,
+          ],
           "className": "row",
         },
         "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {
-            "className": "squareinit",
-            "slotNumber": 1,
-            "value": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "className": "squareinit",
+              "onClick": [Function],
+              "slotNumber": 0,
+              "value": null,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
           },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "className": "squareinit",
+              "onClick": [Function],
+              "slotNumber": 1,
+              "value": null,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "className": "squareinit",
+              "onClick": [Function],
+              "slotNumber": 2,
+              "value": null,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
         "type": "div",
       },
       Object {
@@ -105,11 +208,77 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "Row 2",
+          "children": Array [
+            <Square
+              className="squareinit"
+              onClick={[Function]}
+              slotNumber={3}
+              value={null}
+            />,
+            " ",
+            <Square
+              className="squareinit"
+              onClick={[Function]}
+              slotNumber={4}
+              value={null}
+            />,
+            " ",
+            <Square
+              className="squareinit"
+              onClick={[Function]}
+              slotNumber={5}
+              value={null}
+            />,
+          ],
           "className": "row",
         },
         "ref": null,
-        "rendered": "Row 2",
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "className": "squareinit",
+              "onClick": [Function],
+              "slotNumber": 3,
+              "value": null,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "className": "squareinit",
+              "onClick": [Function],
+              "slotNumber": 4,
+              "value": null,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "className": "squareinit",
+              "onClick": [Function],
+              "slotNumber": 5,
+              "value": null,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
         "type": "div",
       },
       Object {
@@ -117,11 +286,77 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "Row 3",
+          "children": Array [
+            <Square
+              className="squareinit"
+              onClick={[Function]}
+              slotNumber={6}
+              value={null}
+            />,
+            " ",
+            <Square
+              className="squareinit"
+              onClick={[Function]}
+              slotNumber={7}
+              value={null}
+            />,
+            " ",
+            <Square
+              className="squareinit"
+              onClick={[Function]}
+              slotNumber={8}
+              value={null}
+            />,
+          ],
           "className": "row",
         },
         "ref": null,
-        "rendered": "Row 3",
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "className": "squareinit",
+              "onClick": [Function],
+              "slotNumber": 6,
+              "value": null,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "className": "squareinit",
+              "onClick": [Function],
+              "slotNumber": 7,
+              "value": null,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "className": "squareinit",
+              "onClick": [Function],
+              "slotNumber": 8,
+              "value": null,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
         "type": "div",
       },
     ],
@@ -146,19 +381,72 @@ ShallowWrapper {
           >
             <Square
               className="squareinit"
+              onClick={[Function]}
+              slotNumber={0}
+              value={null}
+            />
+             
+            <Square
+              className="squareinit"
+              onClick={[Function]}
               slotNumber={1}
+              value={null}
+            />
+             
+            <Square
+              className="squareinit"
+              onClick={[Function]}
+              slotNumber={2}
               value={null}
             />
           </div>,
           <div
             className="row"
           >
-            Row 2
+            <Square
+              className="squareinit"
+              onClick={[Function]}
+              slotNumber={3}
+              value={null}
+            />
+             
+            <Square
+              className="squareinit"
+              onClick={[Function]}
+              slotNumber={4}
+              value={null}
+            />
+             
+            <Square
+              className="squareinit"
+              onClick={[Function]}
+              slotNumber={5}
+              value={null}
+            />
           </div>,
           <div
             className="row"
           >
-            Row 3
+            <Square
+              className="squareinit"
+              onClick={[Function]}
+              slotNumber={6}
+              value={null}
+            />
+             
+            <Square
+              className="squareinit"
+              onClick={[Function]}
+              slotNumber={7}
+              value={null}
+            />
+             
+            <Square
+              className="squareinit"
+              onClick={[Function]}
+              slotNumber={8}
+              value={null}
+            />
           </div>,
         ],
         "className": "board",
@@ -192,27 +480,77 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": <Square
-              className="squareinit"
-              slotNumber={1}
-              value={null}
-            />,
+            "children": Array [
+              <Square
+                className="squareinit"
+                onClick={[Function]}
+                slotNumber={0}
+                value={null}
+              />,
+              " ",
+              <Square
+                className="squareinit"
+                onClick={[Function]}
+                slotNumber={1}
+                value={null}
+              />,
+              " ",
+              <Square
+                className="squareinit"
+                onClick={[Function]}
+                slotNumber={2}
+                value={null}
+              />,
+            ],
             "className": "row",
           },
           "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "function",
-            "props": Object {
-              "className": "squareinit",
-              "slotNumber": 1,
-              "value": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "className": "squareinit",
+                "onClick": [Function],
+                "slotNumber": 0,
+                "value": null,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
             },
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "className": "squareinit",
+                "onClick": [Function],
+                "slotNumber": 1,
+                "value": null,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "className": "squareinit",
+                "onClick": [Function],
+                "slotNumber": 2,
+                "value": null,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
           "type": "div",
         },
         Object {
@@ -220,11 +558,77 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "Row 2",
+            "children": Array [
+              <Square
+                className="squareinit"
+                onClick={[Function]}
+                slotNumber={3}
+                value={null}
+              />,
+              " ",
+              <Square
+                className="squareinit"
+                onClick={[Function]}
+                slotNumber={4}
+                value={null}
+              />,
+              " ",
+              <Square
+                className="squareinit"
+                onClick={[Function]}
+                slotNumber={5}
+                value={null}
+              />,
+            ],
             "className": "row",
           },
           "ref": null,
-          "rendered": "Row 2",
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "className": "squareinit",
+                "onClick": [Function],
+                "slotNumber": 3,
+                "value": null,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "className": "squareinit",
+                "onClick": [Function],
+                "slotNumber": 4,
+                "value": null,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "className": "squareinit",
+                "onClick": [Function],
+                "slotNumber": 5,
+                "value": null,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
           "type": "div",
         },
         Object {
@@ -232,11 +636,77 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "Row 3",
+            "children": Array [
+              <Square
+                className="squareinit"
+                onClick={[Function]}
+                slotNumber={6}
+                value={null}
+              />,
+              " ",
+              <Square
+                className="squareinit"
+                onClick={[Function]}
+                slotNumber={7}
+                value={null}
+              />,
+              " ",
+              <Square
+                className="squareinit"
+                onClick={[Function]}
+                slotNumber={8}
+                value={null}
+              />,
+            ],
             "className": "row",
           },
           "ref": null,
-          "rendered": "Row 3",
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "className": "squareinit",
+                "onClick": [Function],
+                "slotNumber": 6,
+                "value": null,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "className": "squareinit",
+                "onClick": [Function],
+                "slotNumber": 7,
+                "value": null,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "className": "squareinit",
+                "onClick": [Function],
+                "slotNumber": 8,
+                "value": null,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
           "type": "div",
         },
       ],

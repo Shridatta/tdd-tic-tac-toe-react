@@ -11,4 +11,9 @@ describe("when rendering the Square", () => {
   it("should render the square div", () => {
     expect(square.find(".squareDiv").exists()).toBeTruthy();
   });
+
+  it("should have x turn to play true on initial click ", () => {
+    square.find(".squareDiv").simulate("click");
+    expect(square.state().xTurnToPlay).toEqual(true);
+  });
 });
