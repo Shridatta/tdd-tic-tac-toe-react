@@ -11,4 +11,8 @@ describe("when rendering the app", () => {
   it("App renders correctly", () => {
     expect(app).toMatchSnapshot();
   });
+
+  it("Has the Board component", () => {
+    expect(app.find(".boardComponent").exists()).toBeTruthy();
+  });
 });
