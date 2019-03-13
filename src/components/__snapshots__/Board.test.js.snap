@@ -18,11 +18,11 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": "tictactoe",
+      "children": "Board",
       "className": "board",
     },
     "ref": null,
-    "rendered": "tictactoe",
+    "rendered": "Board",
     "type": "div",
   },
   Symbol(enzyme.__nodes__): Array [
@@ -31,11 +31,11 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": "tictactoe",
+        "children": "Board",
         "className": "board",
       },
       "ref": null,
-      "rendered": "tictactoe",
+      "rendered": "Board",
       "type": "div",
     },
   ],
