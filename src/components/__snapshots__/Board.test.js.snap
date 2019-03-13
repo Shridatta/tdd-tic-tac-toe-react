@@ -29,17 +29,21 @@ ShallowWrapper {
         <div
           className="row"
         >
-          First row
+          <Square
+            className="squareinit"
+            slotNumber={1}
+            value={null}
+          />
         </div>,
         <div
           className="row"
         >
-          Second row
+          Row 2
         </div>,
         <div
           className="row"
         >
-          Third row
+          Row 3
         </div>,
       ],
       "className": "board",
@@ -73,11 +77,27 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "First row",
+          "children": <Square
+            className="squareinit"
+            slotNumber={1}
+            value={null}
+          />,
           "className": "row",
         },
         "ref": null,
-        "rendered": "First row",
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "className": "squareinit",
+            "slotNumber": 1,
+            "value": null,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
         "type": "div",
       },
       Object {
@@ -85,11 +105,11 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "Second row",
+          "children": "Row 2",
           "className": "row",
         },
         "ref": null,
-        "rendered": "Second row",
+        "rendered": "Row 2",
         "type": "div",
       },
       Object {
@@ -97,11 +117,11 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "Third row",
+          "children": "Row 3",
           "className": "row",
         },
         "ref": null,
-        "rendered": "Third row",
+        "rendered": "Row 3",
         "type": "div",
       },
     ],
@@ -124,17 +144,21 @@ ShallowWrapper {
           <div
             className="row"
           >
-            First row
+            <Square
+              className="squareinit"
+              slotNumber={1}
+              value={null}
+            />
           </div>,
           <div
             className="row"
           >
-            Second row
+            Row 2
           </div>,
           <div
             className="row"
           >
-            Third row
+            Row 3
           </div>,
         ],
         "className": "board",
@@ -168,11 +192,27 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "First row",
+            "children": <Square
+              className="squareinit"
+              slotNumber={1}
+              value={null}
+            />,
             "className": "row",
           },
           "ref": null,
-          "rendered": "First row",
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "className": "squareinit",
+              "slotNumber": 1,
+              "value": null,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
           "type": "div",
         },
         Object {
@@ -180,11 +220,11 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "Second row",
+            "children": "Row 2",
             "className": "row",
           },
           "ref": null,
-          "rendered": "Second row",
+          "rendered": "Row 2",
           "type": "div",
         },
         Object {
@@ -192,11 +232,11 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "Third row",
+            "children": "Row 3",
             "className": "row",
           },
           "ref": null,
-          "rendered": "Third row",
+          "rendered": "Row 3",
           "type": "div",
         },
       ],

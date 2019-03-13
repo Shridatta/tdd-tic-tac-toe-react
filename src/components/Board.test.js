@@ -37,4 +37,8 @@ describe("when rendering the app", () => {
   it("the board should contain 3 rows", () => {
     expect(board.find(".row").length).toEqual(3);
   });
+
+  it("should render all the slots for the board", () => {
+    expect(board.find(".squareinit").exists()).toBeTruthy();
+  });
 });

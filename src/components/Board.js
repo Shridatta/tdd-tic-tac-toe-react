@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
+import Square from "./Square";
 
 class Board extends Component {
   constructor(props) {
@@ -10,14 +11,18 @@ class Board extends Component {
     };
     console.log(this.state);
   }
+
+  renderSlot(i) {
+    return <Square />;
+  }
   render() {
     return (
       <div className="board">
         Board <br />
         <div className="currentPlayer">The current player is</div>
-        <div className="row">First row</div>
-        <div className="row">Second row</div>
-        <div className="row">Third row</div>
+        <div className="row" />
+        <div className="row">Row 2</div>
+        <div className="row">Row 3</div>
       </div>
     );
   }
