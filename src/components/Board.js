@@ -5,7 +5,8 @@ class Board extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      squares: Array(9).fill(null)
+      squares: Array(9).fill(null),
+      xTurnToPlay: true
     };
     console.log(this.state);
   }
