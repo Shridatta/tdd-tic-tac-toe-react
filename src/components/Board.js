@@ -40,15 +40,14 @@ class Board extends Component {
     const winner = calculateWinner(this.state.squares);
     let status;
     if (winner) {
-      status = "Winner: " + winner;
+      status = "Winner is " + winner;
     } else {
-      status = "Next player: " + (this.state.xIsNext ? "X" : "O");
+      status = "It's Your Turn Next " + (this.state.xTurnToPlay ? "X" : "O");
     }
     return (
       <div className="board">
         <div className="status">{status}</div>
         Board <br />
-        <div className="currentPlayer">The current player is</div>
         <div className="row">
           {this.renderSlot(0)} {this.renderSlot(1)} {this.renderSlot(2)}
         </div>
