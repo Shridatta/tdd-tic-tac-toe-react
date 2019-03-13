@@ -28,4 +28,8 @@ describe("when rendering the app", () => {
   it("initializes the state with X's turn to play to true", () => {
     expect(board.state().xTurnToPlay).toEqual(true);
   });
+
+  it("should render the the Current Player div", () => {
+    expect(board.find(".currentPlayer").exists()).toBeTruthy();
+  });
 });
