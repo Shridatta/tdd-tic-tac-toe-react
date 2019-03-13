@@ -25,4 +25,7 @@ describe("when rendering the app", () => {
       null
     ]);
   });
+  it("initializes the state with X's turn to play to true", () => {
+    expect(board.state().xTurnToPlay).toEqual(true);
+  });
 });
