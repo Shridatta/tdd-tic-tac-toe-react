@@ -40,4 +40,10 @@ describe("when rendering the app", () => {
   it("should render all the slots for the board", () => {
     expect(board.find(".squareinit").exists()).toBeTruthy();
   });
+
+  it("should have nine squares", () => {
+    const board = mount(<Board squares={Array(9).fill(null)} />);
+
+    expect(board.find("#squareDiv").length).toEqual(9);
+  });
 });
