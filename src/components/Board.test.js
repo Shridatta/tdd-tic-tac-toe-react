@@ -1,11 +1,12 @@
 import React from "react";
-import { shallow, configure } from "enzyme";
+import { shallow, configure, mount } from "enzyme";
 import Adapter from "enzyme-adapter-react-16";
 import Board from "./Board";
 
 configure({ adapter: new Adapter() });
 
 const board = shallow(<Board />);
+const wrapper = mount(<Board />);
 
 describe("when rendering the app", () => {
   it("renders Board correctly", () => {
@@ -31,5 +32,9 @@ describe("when rendering the app", () => {
 
   it("should render the the Current Player div", () => {
     expect(board.find(".currentPlayer").exists()).toBeTruthy();
+  });
+
+  it("the board should contain 3 rows", () => {
+    expect(board.find(".row").length).toEqual(3);
   });
 });
