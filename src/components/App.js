@@ -1,9 +1,14 @@
 import React, { Component } from "react";
 import "./App.css";
+import Board from "./Board";
 
 class App extends Component {
   render() {
-    return <div className="App">tictactoe</div>;
+    return (
+      <div className="App">
+        <Board className="boardComponent" />
+      </div>
+    );
   }
 }
 
